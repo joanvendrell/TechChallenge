@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = "https://techchallenge3-s0p9.onrender.com"; // import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export async function createJob(payload) {
   const res = await fetch(`${API_BASE}/api/simulate`, {
