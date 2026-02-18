@@ -154,7 +154,7 @@ export default function App() {
     <div className="page">
       <header className="header">
         <div>
-          <h1>KronosAI TechChallange: Physics Simulator</h1>
+          <h1>KronosAI TechChallenge: Physics Simulator</h1>
           <p className="sub">Agentic finite-element simulations.</p>
         </div>
       </header>
