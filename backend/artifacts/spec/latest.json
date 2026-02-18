@@ -1,0 +1,69 @@
+{
+  "domain": "solid_mechanics",
+  "pde": "linear_elasticity",
+  "geometry": {
+    "type": "sphere",
+    "dims": {
+      "L": 0.1,
+      "W": 0.01,
+      "H": 0.01,
+      "Lz": 2.0,
+      "R": 2.0
+    }
+  },
+  "material": {
+    "name": "steel",
+    "props": {
+      "E": 200000000000.0,
+      "nu": 0.3
+    }
+  },
+  "bc": {
+    "kind": {
+      "type": "cantilever_tip_load",
+      "fixed_end": "x=0",
+      "load_end": "x=L",
+      "F": 1000.0,
+      "direction": "down"
+    }
+  },
+  "mesh": {
+    "resolution": "auto",
+    "params": {
+      "nx": 60,
+      "ny": 10,
+      "nz": 10
+    }
+  },
+  "outputs": [
+    "displacement",
+    "von_mises"
+  ],
+  "units": "SI",
+  "extracted": {
+    "entities": {
+      "quantities": [
+        [
+          2.0,
+          "length",
+          "2 m",
+          "m"
+        ],
+        [
+          1000.0,
+          "force",
+          "1000 N",
+          "N"
+        ]
+      ],
+      "material": "steel",
+      "geom_hint": "sphere"
+    }
+  },
+  "warnings": [
+    "Assuming beam geometry L=0.1m, W=0.01m, H=0.01m (override recommended).",
+    "Reused previous setup; applied updates from follow-up prompt.",
+    "Reused previous setup; applied updates from follow-up prompt."
+  ],
+  "clarifying_questions": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "physics-nlp-sim-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kitware/vtk.js": "^34.16.3",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.15.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.4"
+  }
+}
