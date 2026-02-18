@@ -3,8 +3,5 @@ uvicorn[standard]==0.27.1
 pydantic==2.6.3
 spacy==3.7.4
 pint==0.23
-
 meshio==5.3.5
-pyvista==0.43.4
-vtk==9.2.6
 gmsh==4.11.1
