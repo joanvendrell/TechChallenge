@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN python -m pip install --upgrade pip \
  && pip install -r requirements.txt \
- && python -m spacy download en_core_web_sm==3.7.1
+ && python -m spacy download en_core_web_sm
 
 COPY backend ./backend
 
