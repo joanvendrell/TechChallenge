@@ -53,7 +53,7 @@ Adopt an **agentic architecture** (e.g., master-agent loops and MCPs) to orchest
 **Prompt**
 > Simulate steady Stokes flow in a 1 m by 0.2 m by 0.2 m channel with inlet velocity 0.3 m/s and outlet pressure 0 Pa.
 
-![Fluids example](imgaes/fluids.png)
+![Fluids example](images/fluids.png)
 
 ---
 
