@@ -17,4 +17,4 @@ RUN python -m pip install --upgrade pip \
 COPY backend ./backend
 
 # Render provides PORT
-CMD ["bash", "-lc", "uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-10000}"]
+CMD ["bash", "-lc", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}"]
